@@ -1,0 +1,53 @@
+// 重置 Element Plus 样式
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  // 主题颜色
+  $colors: (
+    'primary': (
+      'base': #2C81D6,
+    ),
+    'success': (
+      'base': #67C23A,
+    ),
+    'warning': (
+      'base': #E6A23C,
+    ),
+    'danger': (
+      'base': #FE574A,
+    ),
+    'error': (
+      'base': #FE574A,
+    ),
+    'info': (
+      'base': #909399,
+    ),
+  ),
+  // 文本颜色
+  $text-color: (
+    'primary': #202022,
+    'regular': #606266,
+    'secondary': #909399,
+    'placeholder': #A8ABB2,
+    'disabled': #C0C4CC,
+  ),
+  // 背景颜色
+  $bg-color: (
+    'page': #F6F6F8,
+  ),
+  // 边框圆角
+  $border-radius: (
+    'base': 0,
+    'small': 0,
+  ),
+  // 边框颜色
+  $border-color: (
+    '': #E6E6E6,
+  ),
+  // 单选框
+  $radio: (
+    'font-weight': 'normal',
+  ),
+  // 多选框
+  $checkbox: (
+    'font-weight': 'normal',
+  ),
+);

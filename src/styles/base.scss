@@ -1,0 +1,125 @@
+*, ::before, ::after {
+	box-sizing: border-box;
+}
+
+html {
+	line-height: 1.15;
+	text-size-adjust: 100%;
+	tab-size: 4;
+}
+
+body {
+	margin: 0;
+	font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-ms-content-zooming: none;
+}
+
+code, kbd, samp, pre {
+	font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+	font-size: 1em;
+}
+
+hr {
+	height: 0;
+	color: inherit;
+}
+
+a {
+	text-decoration: none;
+	transition: var(--hover-transition);
+}
+
+img {
+	vertical-align: middle;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+b, strong {
+	font-weight: 500;
+}
+
+small {
+	font-size: 80%;
+}
+
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+
+	@at-root sub {
+		bottom: -0.25em;
+	}
+
+	@at-root sup {
+		top: -0.5em;
+	}
+}
+
+legend {
+	padding: 0;
+}
+
+progress {
+	vertical-align: baseline;
+}
+
+summary {
+	display: list-item;
+}
+
+table {
+	text-indent: 0;
+	border-spacing: 0;
+	border-color: inherit;
+	border-collapse: collapse;
+}
+
+button, input, optgroup, select, textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+
+	@at-root button, select {
+		text-transform: none;
+		cursor: pointer;
+	}
+
+	@at-root button, [type='button'], [type='reset'], [type='submit'] {
+		appearance: button;
+	}
+
+	@at-root [type='search'] {
+		appearance: textfield;
+		outline-offset: -2px;
+	}
+}
+
+::-webkit- {
+	&inner-spin-button, &outer-spin-button {
+		height: auto;
+	}
+
+	&search-decoration {
+		appearance: none;
+	}
+
+	&file-upload-button {
+		appearance: button;
+		font: inherit;
+	}
+}
+
+::-moz- {
+	&focus-inner {
+		border-style: none;
+		padding: 0;
+	}
+}

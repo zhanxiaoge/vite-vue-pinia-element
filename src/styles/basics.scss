@@ -1,0 +1,41 @@
+:root {
+	// 品牌色
+	--brand-color: #FF4500;
+	--link-color: #00BEBD;
+	--primary-color: #2C81D6;
+	--success-color: #67C23A;
+	--warning-color: #E6A23C;
+	--danger-color: #FE574A;
+
+	// 基础色
+	--black-color: #000000;
+	--white-color: #FFFFFF;
+	--border-color: #E6E6E6;
+	--background-color: #F6F6F8;
+	--transparent-color: transparent;
+
+	// 文本颜色
+	--primary-text-color: #202022;
+	--regular-text-color: #606266;
+	--secondary-text-color: #909399;
+	--placeholder-text-color: #A8ABB2;
+	--disabled-text-color: #C0C4CC;
+
+	// 边框样式
+	--border-width: 1px;
+	--border-style: solid;
+	--border-radius: 4px;
+	--border: var(--border-width) var(--border-style) var(--border-color);
+	--border-shadow: 0 0 0 var(--border-width) var(--border-color) inset;
+
+	// 边框阴影
+	--box-shadow-level: 0 0 8px rgba(153, 153, 153, 0.2);
+	--box-shadow-popup: 0 4px 16px 0 rgba(153, 153, 153, 0.2);
+	--box-shadow-card: 0 8px 24px 0 rgba(153, 153, 153, 0.2);
+	--box-shadow-panel: 0 16px 40px 0 rgba(153, 153, 153, 0.2);
+
+	// 动画效果
+	--hover-transition: all 0.2s linear;
+	--hover-color-transition: color 0.2s linear;
+	--click-filter: brightness(0.9);
+}

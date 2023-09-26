@@ -1,0 +1,12 @@
+body {
+	position: relative;
+	min-height: 100vh;
+	min-width: 100vw;
+	background: var(--background-color);
+}
+
+#app {
+	position: relative;
+	overflow: hidden;
+	min-height: 100vh;
+}
